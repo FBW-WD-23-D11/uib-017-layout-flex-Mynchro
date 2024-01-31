@@ -8,3 +8,13 @@ div {
   border: 2px solid red;
   text-align: center;
 }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Ausgangsposition: Jeder Div nimmt als Blockelement gesamte Breit ein
+display: flex verschiebt die Container in >eine< Reihe
+flex-wrap: bringt die Container in mehrere Zeilen */
